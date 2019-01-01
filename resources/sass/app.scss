@@ -1,0 +1,28 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/css/all';
+
+// Material Icon
+@import '~material-design-icons/iconfont/material-icons';
+
+// Vuetify
+@import '~vuetify/dist/vuetify.min';
+
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn:focus{
+  box-shadow: none !important;
+}
+a:hover{
+  text-decoration: none;
+}
